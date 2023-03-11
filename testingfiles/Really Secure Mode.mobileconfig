@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Don't install if you want all features still</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>allowAssistantWhileLocked</key>
+				<false />
+				<key>allowLockScreenControlCenter</key>
+				<false />
+				<key>allowLockScreenNotificationsView</key>
+				<false />
+				<key>allowNFC</key>
+				<false />
+				<key>allowPassbookWhileLocked</key>
+				<false />
+				<key>allowSiriServerLogging</key>
+				<false />
+				<key>forceLimitAdTracking</key>
+				<true />
+				<key>PayloadDisplayName</key>
+				<string>Restrictions</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.applicationaccess.71bae9ee-c220-492d-b748-5c498587eaee</string>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadUUID</key>
+				<string>399e0914-51c7-4f55-a177-265d839af4d1</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>safety</string>
+		<key>PayloadDisplayName</key>
+		<string>Really Secure Mode</string>
+		<key>PayloadIdentifier</key>
+		<string>More Secure unsupervised </string>
+		<key>PayloadOrganization</key>
+		<string>TechyDude - Profile Library - testing</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>bf4e5d1f-ee1b-4d10-9c65-f4837ff0e462</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>1</integer>
+	</dict>
+</plist>
